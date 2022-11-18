@@ -1,13 +1,16 @@
-import React from "react";
-import MyClassComponent from "./components/my-class-commponent";
+import React from 'react'
+import MyClassComponent from './components/myClassComponent'
+import Person from './components/person'
+import Timer from './components/timer'
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-      <MyClassComponent />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      // <MyClassComponent />
+      // <Person firstName='Purnananda' lastName='Behera' />
+      <Timer />
+    )
+  }
 }
 
-export default App;
+export default App

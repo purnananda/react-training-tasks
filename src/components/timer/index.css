@@ -1,0 +1,17 @@
+.timer-container {
+    font-size: 6rem;
+    font-family: system-ui;
+    font-weight: 700;
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.timer-header {
+    font-size: 3rem;
+    font-family: system-ui;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
