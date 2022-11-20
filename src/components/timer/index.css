@@ -7,6 +7,15 @@
     justify-content: center;
 }
 
+.timer-container-fc {
+    font-size: 6rem;
+    font-family: system-ui;
+    font-weight: 700;
+    color: coral;
+    display: flex;
+    justify-content: center;
+}
+
 .timer-header {
     font-size: 3rem;
     font-family: system-ui;

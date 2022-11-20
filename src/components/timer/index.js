@@ -1,5 +1,6 @@
 import React from "react";
 import ClassCompTimer from "./classCompTimer";
+import FunctionCompTimer from "./functionCompTimer";
 
 class Timer extends React.Component {
     constructor(props) {
@@ -15,7 +16,8 @@ class Timer extends React.Component {
 
     render() {
         return (
-            <ClassCompTimer deadline={this.getDeadline(300)} />
+            // <ClassCompTimer deadline={this.getDeadline(300)} />
+            <FunctionCompTimer deadline={this.getDeadline(300)} />
         )
     }
 }
