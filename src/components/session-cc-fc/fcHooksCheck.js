@@ -13,16 +13,6 @@ const FcHookCheck = props => {
     console.log('counter initial: ', count)
   }, [])
 
-  //   called when the dependencies change
-  //   useEffect(() => {
-  //     console.log('counter click: ', count)
-  //   }, [count])
-
-  // called every time
-  //   useEffect(() => {
-  //     console.log('counter check: ', count)
-  //   })
-
   return (
     <div>
       <h1>Counter: {count}</h1>

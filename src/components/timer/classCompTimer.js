@@ -28,7 +28,7 @@ class ClassCompTimer extends React.Component {
     const interval = setInterval(() => this.getTime(this.props.deadline), 1000)
     return () => clearInterval(interval)
   }
-
+  
   render = () => {
     return (
       <div>
