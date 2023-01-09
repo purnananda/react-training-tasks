@@ -1,16 +1,17 @@
-import React from 'react'
+import UncontrolledComponent from './uncontrolled-component';
+import ControlledComponent from './controlled-component';
+import CreateAccount from './create-account';
+import CreateAccountBS from './create-account-bs';
+import Login from './login';
+import './index.css'
 
 const FormExamples = () => {
   return (
-    <div>
-      <form>
-        <label>
-          Enter your name:
-          <input type='text' />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
+    //<UncontrolledComponent />
+    // <ControlledComponent />
+    // <CreateAccount />
+    <CreateAccountBS />
+    // <Login />
   )
 }
 

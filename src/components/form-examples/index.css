@@ -1,0 +1,30 @@
+.page-header {
+    display: flex;
+    justify-content: center;  
+    font-size: 2rem;
+    font-family: system-ui;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.form-container {
+    font-size: 1rem;
+    font-family: system-ui;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.name-control {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.result-text {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: firebrick;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+}
