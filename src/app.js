@@ -4,6 +4,7 @@ import React from 'react'
 // import UserContext from './components/props-fc/use-context/user-context'
 // import FormExamples from './components/form-examples'
 import BootstrapExamples from './components/bootstrap-examples'
+import RoutingExamples from './components/routing-examples';
 
 const App = () => {
 
@@ -18,7 +19,8 @@ const App = () => {
     //   <Main />
     // </UserContext.Provider>
     // <FormExamples />
-    <BootstrapExamples />
+    // <BootstrapExamples />
+    <RoutingExamples />
   )
 }
 
