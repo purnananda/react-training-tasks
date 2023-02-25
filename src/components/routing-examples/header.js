@@ -9,21 +9,11 @@ const Header = () => {
           <ul className='navbar-nav'>
             <li className='nav-item'>
               <NavLink className='nav-link' to='/'>
-                Home
+                Home 
               </NavLink>
             </li>
             <li className='nav-item'>
-              {/* <NavLink to='/about' className='nav-link'>
-                About
-              </NavLink> */}
-              <NavLink
-                to='/about'
-                className={({ isActive }) =>
-                  isActive
-                    ? 'nav-link active text-danger bg-light'
-                    : 'nav-link inactive'
-                }
-              >
+              <NavLink to='/about' className='nav-link'>
                 About
               </NavLink>
             </li>

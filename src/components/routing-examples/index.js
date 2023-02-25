@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route
 } from 'react-router-dom';
@@ -13,7 +13,7 @@ import PageNotFound from './page-not-found';
 
 const RoutingExamples = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Header />
       <div className='container pt-2'>
         <Routes>
@@ -23,7 +23,7 @@ const RoutingExamples = () => {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 
